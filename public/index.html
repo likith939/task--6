@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <style>
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .contact img {
+            width: 30px;
+            height: 30px;
+            margin: 7px;
+        }
+        .cvbutton {
+        display: inline-block;
+        padding: 10px 20px; 
+        background-color: #0074D9; 
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .cvbutton:hover {
+        background-color: #0056b3;
+      }
+
+    </style>
+    <title>React_Task6</title>
+</head>
+<body>
+  <center>
+    <div class="container">
+      <br/>
+        <img src="./images/profile pic.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="name">I am Sivaji</h1>
+        <div class="contact">
+            <a href="mailto:ramareddy@gmail.com">
+                <img src="./images/mail.jpg" alt="Email">
+            </a>   
+            <a href="https://github.com/Rama-Reddy-2003">
+                <img src="./images/git.png" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com/">
+                <img src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+        <h2 class="education">Education</h2>
+        <p>I am currently pursuing B. Tech (AI & ML) 3rd year in Vellore Institute of Technology, Chennai.</p>
+        <h2 class="skills">Skills</h2>
+            <li>Java Full Stack</li>
+            <li>Mern Full Stack</li>
+            <li>Machine Learning</li>
+          <br/>
+        <a href="resume.pdf" class="cvbutton">Download CV</a>
+    </div>
+    <script src="app.js"></script>
+  </center>
+</body>
+</html>
